@@ -67,3 +67,4 @@ C:\Users\Harvey Mellomida\source\repos\Contact Management System\Contact Managem
 C:\Users\Harvey Mellomida\source\repos\Contact Management System\Contact Management System\bin\Debug\net8.0-windows\System.Drawing.Common.dll
 C:\Users\Harvey Mellomida\source\repos\Contact Management System\Contact Management System\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
 C:\Users\Harvey Mellomida\source\repos\Contact Management System\Contact Management System\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Harvey Mellomida\source\repos\Contact Management System\Contact Management System\obj\Debug\net8.0-windows\Contact_Management_System.LoginForm.resources

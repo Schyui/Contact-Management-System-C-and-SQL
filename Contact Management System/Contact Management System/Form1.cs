@@ -82,17 +82,25 @@ namespace Contact_Management_System
 
             try
             {
-                string update = " update contacttable set RegNo =" + regNoTxt.Text + ",FirstName ='" + firstNameTxt.Text + "', MiddleName='" + midNameTxt.Text + "',LastName= '" + lastNameTxt.Text + "',ContactNo=" + contactTxt.Text + ", Email='" + emailTxt.Text + "',Address='" + statusTxt.Text + "',Citizenship='" + citizenTxt.Text + "' where SortNo=" + dataGridView1.SelectedRows[0].Cells[0].Value + " ";
-                MySqlDataAdapter da = new MySqlDataAdapter(update, connect);
-                DataSet ds = new DataSet();
+                if (regNoTxt.Text.Equals(""))
+                {
+                    string update = " update contacttable set FirstName ='" + firstNameTxt.Text + "', MiddleName='" + midNameTxt.Text + "',LastName= '" + lastNameTxt.Text + "',ContactNo=" + contactTxt.Text + ", Email='" + emailTxt.Text + "',Address='" + statusTxt.Text + "',Citizenship='" + citizenTxt.Text + "' where SortNo=" + dataGridView1.SelectedRows[0].Cells[0].Value + " ";
+                    MySqlDataAdapter da = new MySqlDataAdapter(update, connect);
+                    DataSet ds = new DataSet();
 
-                da.Fill(ds);
 
-                MessageBox.Show("Updated Successfully!");
+                    da.Fill(ds);
 
-                viewGridData();
+                    MessageBox.Show("Updated Successfully!");
 
-                ClearTextBox();
+                    viewGridData();
+
+                    ClearTextBox();
+                }
+                else
+                {
+                    MessageBox.Show("You can't change the Register No.");
+                }
             }
             catch (Exception ex)
             {
@@ -218,6 +226,12 @@ namespace Contact_Management_System
         private void pictureBox2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void signOutBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new LoginForm().Show();
         }
     }
 }
