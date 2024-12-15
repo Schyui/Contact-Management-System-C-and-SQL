@@ -28,14 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle7 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle8 = new DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             dataGridView1 = new DataGridView();
             ViewDataBtn = new Button();
-            instertBtn = new Button();
+            insertBtn = new Button();
             updateBtn = new Button();
             deleteBtn = new Button();
             exitBtn = new Button();
@@ -70,38 +70,38 @@
             // 
             // dataGridView1
             // 
-            dataGridViewCellStyle1.BackColor = Color.White;
-            dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle5.BackColor = Color.White;
+            dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
             dataGridView1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             dataGridView1.BackgroundColor = Color.SeaShell;
             dataGridView1.BorderStyle = BorderStyle.Fixed3D;
-            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = Color.LightBlue;
-            dataGridViewCellStyle2.Font = new Font("Yu Gothic", 9F);
-            dataGridViewCellStyle2.ForeColor = SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = Color.Tan;
-            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
-            dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = Color.LightBlue;
+            dataGridViewCellStyle6.Font = new Font("Yu Gothic", 9F);
+            dataGridViewCellStyle6.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle6.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = Color.Tan;
+            dataGridViewCellStyle6.WrapMode = DataGridViewTriState.True;
+            dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = Color.LightSteelBlue;
-            dataGridViewCellStyle3.Font = new Font("Yu Gothic", 9F);
-            dataGridViewCellStyle3.ForeColor = Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
-            dataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle7.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = Color.LightSteelBlue;
+            dataGridViewCellStyle7.Font = new Font("Yu Gothic", 9F);
+            dataGridViewCellStyle7.ForeColor = Color.Black;
+            dataGridViewCellStyle7.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = DataGridViewTriState.False;
+            dataGridView1.DefaultCellStyle = dataGridViewCellStyle7;
             dataGridView1.Location = new Point(343, 182);
             dataGridView1.Name = "dataGridView1";
-            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = Color.BurlyWood;
-            dataGridViewCellStyle4.Font = new Font("Yu Gothic", 9F);
-            dataGridViewCellStyle4.ForeColor = SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
-            dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle8.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = Color.BurlyWood;
+            dataGridViewCellStyle8.Font = new Font("Yu Gothic", 9F);
+            dataGridViewCellStyle8.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle8.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = DataGridViewTriState.True;
+            dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
             dataGridView1.Size = new Size(781, 313);
             dataGridView1.TabIndex = 0;
             // 
@@ -118,19 +118,19 @@
             ViewDataBtn.Visible = false;
             ViewDataBtn.Click += ViewDataBtn_Click;
             // 
-            // instertBtn
+            // insertBtn
             // 
-            instertBtn.BackColor = Color.YellowGreen;
-            instertBtn.FlatStyle = FlatStyle.Popup;
-            instertBtn.Font = new Font("Yu Gothic UI", 12F, FontStyle.Bold);
-            instertBtn.ForeColor = SystemColors.ButtonFace;
-            instertBtn.Location = new Point(133, 497);
-            instertBtn.Name = "instertBtn";
-            instertBtn.Size = new Size(90, 35);
-            instertBtn.TabIndex = 2;
-            instertBtn.Text = "Add";
-            instertBtn.UseVisualStyleBackColor = false;
-            instertBtn.Click += instertBtn_Click;
+            insertBtn.BackColor = Color.YellowGreen;
+            insertBtn.FlatStyle = FlatStyle.Popup;
+            insertBtn.Font = new Font("Yu Gothic UI", 12F, FontStyle.Bold);
+            insertBtn.ForeColor = SystemColors.ButtonFace;
+            insertBtn.Location = new Point(133, 497);
+            insertBtn.Name = "insertBtn";
+            insertBtn.Size = new Size(90, 35);
+            insertBtn.TabIndex = 2;
+            insertBtn.Text = "Add";
+            insertBtn.UseVisualStyleBackColor = false;
+            insertBtn.Click += insertBtn_Click;
             // 
             // updateBtn
             // 
@@ -479,7 +479,7 @@
             Controls.Add(exitBtn);
             Controls.Add(deleteBtn);
             Controls.Add(updateBtn);
-            Controls.Add(instertBtn);
+            Controls.Add(insertBtn);
             Controls.Add(ViewDataBtn);
             Controls.Add(dataGridView1);
             DoubleBuffered = true;
@@ -498,7 +498,7 @@
 
         private DataGridView dataGridView1;
         private Button ViewDataBtn;
-        private Button instertBtn;
+        private Button insertBtn;
         private Button updateBtn;
         private Button deleteBtn;
         private Button exitBtn;

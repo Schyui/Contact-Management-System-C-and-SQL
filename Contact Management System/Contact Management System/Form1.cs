@@ -50,7 +50,7 @@ namespace Contact_Management_System
             citizenTxt.Clear();
             regNoTxt.Clear();
         }
-        private void instertBtn_Click(object sender, EventArgs e)
+        private void insertBtn_Click(object sender, EventArgs e)
         {
 
             try
